@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .div1 {
+        border: 10px solid black;
+        width: 162px;
+        height: 350px;
+        background-color: rgb(11, 192, 168);
+    
+      }
+      .pr1 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        
+      }
+      .pr2 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .div2 {
+        border: 10px solid black;
+        width: 185px;
+        height: 350px;
+        margin-top: 150px;
+        background-color: rgb(48, 225, 219);
+      }
+        
+      #p1 {
+        display: none;
+      }
+      #p2 {
+        display: none;
+      }
+#img1{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border-bottom-right-radius:100px ;
+}
+#img2{
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius:100px ;
+    border-bottom-right-radius:100px ;
+}
+
+      .div1:hover + #p1{
+    display: block;
+    background-color: black;
+    color: white;
+    width: 125px;
+
+      }
+      .div2:hover + #p2{
+        display: block;
+        background-color: black;
+        color: white;
+        width: 125px;
+      }
+     
+    </style>
+  </head>
+  <body>
+    <u><h1>OVERFLOW PROPERTY</h1></u>
+    <div class="div1">
+      <img id="img1" src="./ambedkar.jpg" alt="ambedkar" height="200" />
+      <p class="pr1">
+        Bhimrao Ramji Ambedkar (14 April 1891 6 December 1956), popularly known
+        as Babasaheb, was an Indian jurist, economist, politician and social
+        reformer who Chaired the Drafting Committee of the Constituent Assembly
+        and was India's First Minister for Law and Justice.
+      </p>
+      <u><p>click here for more information</p></u>
+    </div>
+
+    <p id="p1">
+      Bhimrao Ramji Ambedkar (14 April 1891 6 December 1956), popularly known as
+      Babasaheb, was an Indian jurist, economist, politician and social reformer
+      who Chaired the Drafting Committee of the Constituent Assembly and was
+      India's First Minister for Law and Justice.
+    </p>
+
+    <div class="div2">
+      <img id="img2" src="./abdul kalam.png" alt="abdulkalam" height="200" />
+      <p class="pr2">
+        News. A.P.J. Abdul Kalam (born October 15, 1931, Rameswaram, India—died
+        July 27, 2015, Shillong) was an Indian scientist and politician who
+        played a leading role in the development of India's missile and nuclear
+        weapons programs. He was president of India from 2002 to 2007.
+      </p>
+    <u><p>click here for more information</p></u>
+    </div>
+
+      <p id="p2">
+        News. A.P.J. Abdul Kalam (born October 15, 1931, Rameswaram, India—died
+        July 27, 2015, Shillong) was an Indian scientist and politician who
+        played a leading role in the development of India's missile and nuclear
+        weapons programs. He was president of India from 2002 to 2007.
+      </p>
+    </div>
+  </body>
+</html>
